@@ -1,0 +1,557 @@
+/* GENERAL CSS */
+span{
+    border-radius: 5px;
+}
+
+.card{
+    position: relative; 
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.card .btn{
+    display: block;
+}
+
+.col-md .card img{
+    height: 200px;
+}
+
+@media(max-width:991px){
+    .col-md .card img{
+        height: 150px;
+    }
+}
+
+@media(max-width:768px){
+    .col-md .card img{
+        height: 300px;
+    }
+    .card{
+        margin: 5px;
+    }
+}
+/* GENERAL CSS */
+
+/* BANNER CSS */
+.sd{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    z-index: 1;
+    padding: 5px;
+}
+
+#banner{
+    border-radius: 0px;
+}
+/* BANNER CSS */
+
+/* NAVBAR CSS START */
+.collapse{
+    justify-content:baseline;
+    padding-left: 50px;
+    padding-top: 8px;
+}
+
+.navbar-brand{
+    letter-spacing: 2px;
+}
+
+.navbar-brand::first-letter{
+    font-size: 25px;
+}
+
+.navbar-nav .nav-link{
+    font-weight:640;
+    color: black;
+   margin: 5px; 
+   transition: 0.5s;
+}
+
+.navbar-nav .nav-link:hover{
+    color: bold black;
+    margin: 5px;
+    padding: 5px;
+    transition: 0.5s;
+    font-size: large;
+}
+
+.navbar-nav #nav-sondakika:hover{
+    color: red;
+}
+
+.navbar-nav #nav-spor:hover{
+    color: rgba(28, 28, 235, 0.767);
+}
+
+.navbar-nav #nav-siyaset:hover{
+    color: black;
+}
+
+.navbar-nav #nav-bilim:hover{
+    color: rgba(0, 174, 255, 0.808);
+}
+
+.navbar-nav #nav-yasam:hover{
+    color: rgba(5, 156, 5, 0.836);
+}
+ /* NAVBAR CSS END */
+
+ /* FIRST LINE CAROUSEL CSS */
+ @media(max-width:768px){
+    #first-col{
+        margin-bottom: 8px;
+    }
+}
+
+.carousel-item img{
+    height:405px;
+}
+
+@media(max-width:991px){
+    .carousel-item img{
+        height: 500px;
+    }
+}
+
+.carousel-inner-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.h5-on-image1{
+    position: absolute;
+    align-self: end;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.863);
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.span-on-image1{
+    position: absolute;
+    bottom: 0cm;
+    left: 1;
+    text-align: center;
+    padding-top: 15px;
+    background-color:rgba(255, 4, 4, 0.966);
+    height: 20%;
+    width: 100%;
+    border-radius: 0px;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.span-on-image1:hover{
+    height: 30%;
+    color: rgb(255, 255, 255);
+    transform: scale(2s);
+    transition: 1s;
+    font-weight: bolder;
+}
+
+#span-img1{
+    transition: 1s;
+}
+
+#span-img1:hover{
+    color: black;
+    transform: scale3d(2s);
+    transition: 1s;
+}
+
+.h5-on-image2 {
+    position: absolute;
+    align-self: end;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.span-on-image2{
+    position: absolute;
+    bottom: 0cm;
+    left: 1;
+    text-align: center;
+    padding-top: 20px;
+    background-color:rgba(255, 209, 4, 0.719);
+    height: 20%;
+    width: 100%;
+    border-radius: 0px;
+    color: rgba(0, 0, 0, 0.753);
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.span-on-image2:hover{
+    height: 30%;
+    color: rgb(255, 255, 255);
+    transform: scale(2s);
+    transition: 1s;
+    font-weight: bolder;
+}
+
+.h5-on-image3 {
+    position: absolute;
+    align-self: end;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.7);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.span-on-image3{
+    position: absolute;
+    bottom: 0cm;
+    left: 1;
+    text-align: center;
+    padding-top: 10px;
+    background-color:rgba(255, 0, 0, 0.575);
+    height: 20%;
+    width: 100%;
+    border-radius: 0px;
+    color: rgba(0, 0, 0, 0.753);
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+    transition: 1s;
+}
+
+.span-on-image3:hover{
+    height: 30%;
+    color: rgb(255, 255, 255);
+    transform: scale(2s);
+    transition: 1s;
+    
+}
+/* CAROUSEL CSS END */
+
+/* FIRST LINE CARDS CSS */
+#lastnews{
+    transition: 0.5s;
+}
+
+#lastnews:hover{
+    transform:scale(1.03);
+    transition: 0.3s;
+    z-index: 1;
+    box-shadow: 10px -10px 20px rgba(253, 0, 0, 0.705);
+    border-radius: 10px;
+}
+
+@media(max-width:768px){
+    #lastnews:hover{
+        transform:scale(1.03);
+        transition: 0.3s;
+        z-index: 1;
+        box-shadow: 10px -10px 20px rgba(253, 0, 0, 0.705);
+        border-radius: 10px;
+    }
+}
+
+#cardspor{
+    transition: 0.5s;
+}
+
+#cardspor:hover{
+    transform:scale(1.03);
+    transition: 0.3s;
+    z-index: 1;
+    box-shadow: 10px -10px 20px rgba(0, 118, 253, 0.849);
+    border-radius: 10px;
+}
+
+@media(max-width:768px){
+    #cardspor:hover{
+        transform:scale(1.03);
+        transition: 0.3s;
+        z-index: 1;
+        box-shadow: 10px -10px 20px rgba(0, 118, 253, 0.726);
+        border-radius: 10px;
+    }
+}
+/* FIRST LINE CARDS CSS */
+
+/* SECOND LINE CARDS CSS */
+.sondakikahaber{
+    margin: 10px;
+    letter-spacing: 3px;
+    background-color: rgba(255, 0, 0, 0.938);
+    text-align: center;
+    padding: 2px;
+    color: white;
+    border-radius: 5px;
+}
+
+#two .card{
+    width: 25%;
+    transition: 0.5s;
+}
+
+#two .card:hover{
+    transform:scale(1.03);
+    transition: 0.3s;
+    z-index: 1;
+    box-shadow: 10px -10px 20px rgba(253, 0, 0, 0.705);
+    border-radius: 10px;
+}
+
+@media(max-width:768px){
+    #two .card{
+        width: 100%;
+    }
+
+    #two .card:hover{
+        transform:scale(1.03);
+        transition: 0.3s;
+        z-index: 1;
+        box-shadow: 10px -10px 20px rgba(253, 0, 0, 0.705);
+        border-radius: 10px;
+    }
+}
+
+.card .sondakika{
+    background-color: rgba(255, 0, 0, 0.781);
+    position: absolute;
+    color: white;
+    padding: 6px;
+    font-weight: bolder;
+}
+/* SECOND LINE CARDS CSS */
+
+/* THIRD LINE CARDS CSS */
+.sporH{
+    margin: 10px;
+    letter-spacing: 3px;
+    background-color: rgba(0, 0, 255, 0.808);
+    text-align: center;
+    padding: 2px;
+    color: white;
+    border-radius: 5px;
+}
+
+#three .card{
+    width: 25%;
+    transition: 0.5s;
+}
+
+#three .card:hover{
+    transform:scale(1.03);
+    transition: 0.3s;
+    z-index: 1;
+    box-shadow: 10px -10px 20px rgba(0, 118, 253, 0.849);
+    border-radius: 10px;
+}
+
+@media(max-width:768px){
+    #three .card{
+        width: 100%;
+       
+    }
+
+    #three .card:hover{
+        transform:scale(1.03);
+        transition: 0.3s;
+        z-index: 1;
+        box-shadow: 10px -10px 20px rgba(0, 118, 253, 0.849);
+        border-radius: 10px;
+    }
+}
+
+.card .spor{
+    background-color: rgba(0, 0, 255, 0.747);
+    position: absolute;
+    color: white;
+    padding: 6px;
+    font-weight: bolder;
+}
+/* THIRD LINE CARDS CSS */
+
+/* FOURTH LINE CARDS CSS */
+.siyaset{
+    margin: 10px;
+    letter-spacing: 3px;
+    background-color: rgba(0, 0, 0, 0.849);
+    text-align: center;
+    padding: 2px;
+    color: white;
+    border-radius: 5px;
+}
+
+#four .card{
+    width: 25%;
+    transition: 0.5s;
+}
+
+#four .card:hover{
+    transform:scale(1.03);
+    transition: 0.3s;
+    z-index: 1;
+    box-shadow: 10px -10px 20px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+@media(max-width:768px){
+    #four .card{
+        width: 100%;
+    }
+
+    #four .card:hover{
+        transform:scale(1.03);
+        transition: 0.3s;
+        z-index: 1;
+        box-shadow: 10px -10px 20px rgb(0, 0, 0);
+        border-radius: 10px;
+    }
+}
+
+.card .siyasi{
+    background-color: rgba(0, 0, 0, 0.863);
+    position: absolute;
+    color: white;
+    padding: 6px;
+    font-weight: bolder;
+}
+/* FOURTH LINE CARDS CSS */
+
+/* FIVTH LINE CARDS CSS */
+.bilim{
+    margin: 10px;
+    letter-spacing: 3px;
+    background-color:  rgba(0, 174, 255, 0.63);
+    text-align: center;
+    padding: 2px;
+    color: white;
+    border-radius: 5px;
+}
+
+#five .card{
+    width: 25%;
+    transition: 0.5s;
+}
+
+#five .card:hover{
+    transform:scale(1.03);
+    transition: 0.3s;
+    z-index: 1;
+    box-shadow: 10px -10px 20px rgba(0, 174, 255, 0.63);
+    border-radius: 10px;
+}
+
+@media(max-width:768px){
+    #five .card{
+        width: 100%;
+    }
+
+    #five .card:hover{
+        transform:scale(1.03);
+        transition: 0.3s;
+        z-index: 1;
+        box-shadow: 10px -10px 20px rgba(0, 174, 255, 0.63);
+        border-radius: 10px;
+    }
+}
+
+.card .bilimsel{
+    background-color: rgba(0, 174, 255, 0.63);
+    position: absolute;
+    color: white;
+    padding: 6px;
+    font-weight: bolder;
+}
+
+#btn-bilimsel{
+    background-color: rgba(0, 174, 255, 0.767);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#btn-bilimsel:hover{
+    background-color: rgba(0, 174, 255, 0.856) ;
+}
+/* FIVTH LINE CARDS CSS */
+
+/* SIXTH LINE CARDS CSS */
+.yasam{
+    margin: 10px;
+    letter-spacing: 3px;
+    background-color:  rgba(5, 156, 5, 0.836);
+    text-align: center;
+    padding: 2px;
+    color: white;
+    border-radius: 5px;
+}
+
+#six .card{
+    width: 25%;
+    transition: 0.5s;
+}
+
+#six .card:hover{
+    transform:scale(1.03);
+    transition: 0.3s;
+    z-index: 1;
+    box-shadow: 10px -10px 20px rgba(21, 255, 0, 0.438);
+    border-radius: 10px;
+}
+
+@media(max-width:768px){
+    #six .card{
+        width: 100%;
+    }
+
+    #six .card:hover{
+        transform:scale(1.03);
+        transition: 0.3s;
+        z-index: 1;
+        box-shadow: 10px -10px 20px rgba(21, 255, 0, 0.438);
+        border-radius: 10px;
+    }
+}
+
+.card .life{
+    background-color:  rgba(2, 158, 2, 0.733);
+    position: absolute;
+    color: white;
+    padding: 6px;
+    font-weight: bolder;
+}
+/* SIXTH LINE CARDS CSS */
+
+/* FOOTER CSS */
+#footer li{
+    transition: 0.7s;
+}
+
+#footer li:hover{
+  background-color: rgba(128, 128, 128, 0.815);  
+  transition: 0.7s;
+  padding: 10px;
+}
+
+#footer a{
+    color: black;
+    font-size:large;
+    padding: 5px 54px;
+    transition: 0.2s;
+}
+
+#footer a:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}

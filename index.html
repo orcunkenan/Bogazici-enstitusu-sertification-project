@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HaberPortal</title>
+    <!-- BOOTSTRAP LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- ANIMATE LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+  <body class="bg-dark-subtle">
+    
+    <!-- CONTAINER -->
+    <div class="container bg-body-secondary">
+
+      <!-- BANNER -->
+      <div class="banner d-flex align-items-center">
+        <span id="banner" class="sd" style="margin-top: 3px;">SON DAKİKA HABERLERİ</span>
+        <marquee direction="left" style="font-size: larger; font-weight: bold; border-bottom: 1px solid black; padding: 7px;">Fenerbahçe Transferi Bitirdi! <span style="padding-left: 100px;"> Uzmanlar Uyardı! Belli Saatlerde Dışarı Çıkmamalısınız.    </span> </marquee>
+      </div>
+      <!-- BANNER -->
+      
+      <!-- NAVBAR -->
+
+      <nav class="navbar navbar-expand-lg bg-body-secondary animate__animated animate__lightSpeedInRight">
+        <!-- NAVBAR MENU -->
+        <div class="container-fluid">
+          <a id="Logo" class="navbar-brand" href="#Logo">HaberPortalı</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div  class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#banner">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-sondakika" class="nav-link" href="#sondakikahaber">Son Dakika Haberleri</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-spor" class="nav-link" href="#spor">Spor Haberleri</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-siyaset" class="nav-link" href="#siyaset">Siyaset Haberleri</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-bilim" class="nav-link" href="#bilim">Bilimden Haberler</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-yasam" class="nav-link" href="#yasam">Günlük Yaşam</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      <!-- END OF THE NAVBAR MENU -->
+      </nav>  
+      <!-- END OF THE NAVBAR -->
+
+      <!-- FIRST LINE -->
+
+      <div class="row">
+        <!-- CAROUSEL -->
+        <div id="first-col" class="col-md-6 animate__animated animate__backInLeft">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style="position: relative;">
+            <!-- SLIDES -->
+            <div class="carousel-inner">
+              <!-- FIRST SLIDE -->
+              <div class="carousel-item active" data-bs-interval="6000">
+                <!--  CONTENT -->
+                <a href="https://sonuc.osym.gov.tr/Sorgu.aspx?SonucID=9689" target="_blank" alt="Zaman aşımı">
+                  <!-- CONTENTS OF IMAGE-->
+                  <div class="d-flex flex-column align-items-start justify-content-start carousel-inner-content">
+                    <!-- RIGHT-TOP TITLE -->
+                    <h5 class="h5-on-image1">Son Dakika</h5>
+                    <!-- MAIN IMAGE -->
+                    <img src="/imgs/Osym.jpg" class="d-block w-100" alt="...">
+                    <!-- IMG TEXT -->
+                    <span class="span-on-image1">OSYM Merakla beklenen sınavın sonuçlarını açıkladı!. <br> Sonuçlara bakmak için <span id="span-img1">tıklayınız</span>.</span>
+                  </div>
+                </a>
+              </div>
+              
+              <!-- SECOND SLIDE -->
+              <div class="carousel-item" data-bs-interval="6000">
+                <!-- CONTENT -->
+                <a target="_blank" href="https://www.haberturk.com/htgastro/seyahat/time-in-2023-icin-dunyanin-en-iyi-yerleri-dedigi-lokasyonlar-3576732">
+                  <!-- CONTENTS OF IMAGE -->
+                  <div class="d-flex flex-column align-items-start justify-content-start carousel-inner-content">
+                    <!-- RIGHT-TOP TITLE -->
+                    <h5 class="h5-on-image2" style="margin-top: 1px; background-color: rgba(0, 128, 0, 0.582);">Hayatın İçinden</h5>
+                    <!-- MAIN IMAGE -->
+                    <img src="./imgs/2.jpg" class="d-block w-100" alt="...">
+                    <!-- IMG TEXT -->
+                    <span class="span-on-image2"> 2023 Yılının en güzel manzaraları</span>
+                  </div>
+                </a>
+              </div>
+
+              <!-- THIRD SLIDE -->
+              <div class="carousel-item" data-bs-interval="6000">
+                <!-- CONTENT -->
+                <a href="https://www.youtube.com/watch?v=RS1S5zJdd9I" target="_blank" >
+                  <!-- CONTENTS OF IMAGE -->
+                  <div class="d-flex flex-column align-items-start justify-content-start carousel-inner-content">
+                    <!-- RIGHT-TOP TITLE -->
+                    <h5 class="h5-on-image3">Youtube</h5>
+                    <!-- MAIN IMAGE -->
+                    <img src="./imgs/3.jpg" class="d-block w-100" alt="">
+                    <!-- IMG TEXT -->
+                    <span class="span-on-image3">Son 10 yılın en iyi oyununu seçtiler! <br> Devamı; Enis Kirazoğlu'nun kanalında.</span>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+            <!-- END OF THE SLIDES -->
+
+            <!-- BUTTONS OF CAROUSEL -->
+
+            <!-- PREV BUTTON -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <!-- NEXT BUTTON -->
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+
+          </div>
+        </div>
+        <!-- END OF THE CAROUSEL -->
+
+        <!-- CARDS WHO STAY NEXT TO CAROUSEL -->
+        <div class="col-md-6 d-flex animate__animated animate__backInLeft">
+          <!-- FIRST CARD -->
+          <div id="lastnews" class="card" style="width: 50%;">
+            <!-- MAIN IMAGE -->
+            <img src="./imgs/sondakıka1.jpg" class="card-img-top" alt="...">
+            <!-- RIGHT-TOP TITLE -->
+            <span class="sondakika align-self-end">Son Dakika</span>
+            <!-- CARD CONTENT -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">BOTAŞ <hr></h5>
+              <p class="card-text w-100 h-100">Erdoğan'ın Körfez ülkelerine ziyareti sonrası <b>BOTAŞ'</b>ın satılması tartışmaları gündem oldu.</p>
+              <a href="https://www.turkiyegazetesi.com.tr/ekonomi/erdogan-muhalefetin-botas-iddialarina-cevap-verdi-bazi-cambazlarin-soyledigi-gibi-977106" target="_blank" class="btn btn-danger"">Haberin Devamı...</a>
+            </div>
+          </div>
+
+          <!-- SECOND CARD -->
+          <div id="cardspor" class="card" style="width: 50%;">
+            <!-- MAIN IMAGE -->
+            <img src="./imgs/Spor 1.jpg" class="card-img-top" alt="...">
+            <!-- RIGHT-TOP TITLE -->
+            <span class="spor align-self-end">Spor</span>
+            <!-- CARD CONTENT -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">Kritik bir transfer <hr></h5>
+              <p class="card-text h-100 w-100">Adı bir çok takımla anılan <b>Zaha</b> sonunda kararını verdi!</p>
+              <a href="https://www.fotomac.com.tr/galatasaray/2023/07/23/galatasaraydan-fenerbahceye-wilfried-zaha-gondermesi" target="_blank" class="btn btn-primary">Haberin Devamı...</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- END OF THE FIRST LINE-->
+
+      <!-- SECOND LINE                                                                         LAST NEWS        -->
+
+      <!-- SECOND LINE TITLE -->
+      <h2 id="sondakikahaber" class="sondakikahaber animate__animated animate__fadeInLeftBig">Son Dakika Haberleri</h2>
+      <div class="row mt-3 animate__animated animate__fadeInLeftBig" id="two">
+        <div class="col-md d-flex flex-wrap">
+          <!-- FIRST CARD -->
+          <div  class="card">
+            <!-- MAIN IMG -->
+            <img src="./imgs/Arda Guler.jpg" class="card-img-top" alt="...">
+            <!-- RIGHT-TOP TITLE -->
+            <span class="sondakika align-self-end">Son Dakika</span>
+            <!-- CONTENTS -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">Arda Güler Madrid'de! <hr></h5>
+              <p class="card-text w-100 h-100">Fenerbahçe'de <b>yıldızı parlayan</b> genç oyuncu, dünyanın en büyük kulüplerinin gözünden kaçmadı.</p>
+              <a href="https://www.sondakika.com/spor/haber-real-madrid-arda-guler-i-kadroya-dahil-etti-16147699/" target="_blank" class="btn btn-danger">Haberin Devamı...</a>
+            </div>
+          </div>
+        
+          <!-- SECOND CARD -->
+          <div  class="card">
+            <!-- MAIN IMAGE -->
+            <img src="./imgs/Istanbul maganda.png" class="card-img-top" alt="...">
+            <!-- RIGHT-TOP TITLE -->
+            <span class="sondakika align-self-end">Son Dakika</span>
+            <!-- CONTENTS -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">İstanbul'da Maganda! <hr></h5>
+              <p class="card-text w-100 h-100"><b>Hayat kadını</b> olarak çalıştırıldığı düşünülen kişi, baygın halde sürüklenerek arabaya götürüldü.</p>
+              <a href="https://www.sondakika.com/haber/haber-istanbul-da-kadini-doven-maganda-engel-olmak-istey-16147499/" class="btn btn-danger" target="_blank">Haberin Devamı...</a>
+            </div>
+          </div>
+          
+          <!-- THIRD CARD -->
+          <div class="card">
+            <!-- MAIN IMAGE -->
+            <img src="./imgs/Sicak hava dalgasi.png" class="card-img-top"  alt="...">
+            <!-- RIGHT-TOP TITLE -->
+            <span class="sondakika align-self-end">Son Dakika</span>
+            <!-- CONTENTS -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">Uzmanlar Uyardı! <hr></h5>
+              <p class="card-text w-100 h-100">Uzmanlara göre; önümüzdeki hafta <b>Avrupa</b>'dan sıcak hava dalgası geliyor! <br> İşte beklenen sıcaklıklar;</p>
+              <a href="https://www.milliyet.com.tr/gundem/yeni-sicak-hava-dalgasi-geliyor-bugune-dikkat-40-dereceyi-asacak-6979974" target="_blank" class="btn btn-danger">Haberin Devamı...</a>
+            </div>
+          </div>
+
+          <!-- FOURTH CARD -->
+          <div  class="card">
+            <!-- MAIN IMG -->
+            <img src="./imgs/Imamoglu.jpg" class="card-img-top"  alt="...">
+            <!-- RIGHT-TOP TITLE -->
+            <span class="sondakika align-self-end">Son Dakika</span>
+            <!-- CONTENTS -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">Gizli Zoom Toplantısı <hr></h5>
+              <p class="card-text w-100 h-100">CHP'de seçim yenilgisinin yankıları hala devam ediyor. <b>Ekrem İMAMOĞLU</b> ve birçok chpli üst düzey yetkili gizli toplantı yaparken ifşalandı.</p>
+              <a href="https://tr.euronews.com/2023/07/19/ekrem-imamoglunun-chpli-kurmaylarla-yaptigi-toplanti-kaydi-sizdirildi-hicbir-gizli-tarafi-" target="_blank" class="btn btn-danger">Haberin Devamı...</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- END OF THE SECOND LINE -->
+
+      <!-- THIRD LINE                                                                          SPORT NEWS       -->
+
+      <!-- THIRD LINE TITLE -->
+      <h2 id="spor" class="sporH animate__animated animate__fadeInLeftBig">Spor Haberleri</h2>
+      <div class="row mt-3 animate__animated animate__fadeInLeftBig" id="three">
+        <div class="col-md d-flex flex-wrap">
+          <!-- FIRST CARD -->
+          <div class="card">
+            <!-- MAIN IMAGE -->
+            <img src="./imgs/Atılla.jpg" class="card-img-top"  alt="...">
+            <!-- RIGHT-TOP TITLE -->
+            <span class="spor align-self-end">Spor</span>
+            <!-- CONTENTS -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">Attila Szalai Gidiyor <hr></h5>
+              <p class="card-text w-100 h-100">Gelişi <b>Mesut ÖZİL</b>'in gölgesinde kalan Macar topçu kulübüne güzel bir bonservis kazandırarak ayrılıyor, Fenerbahçe taraftarı mutlu.</p>
+              <a href="https://www.fotomac.com.tr/fenerbahce/2023/07/23/fenerbahce-transfer-haberi-attila-szalainin-yeni-takimi-belli-oldu-iste-bonservis-bedeli" target="_blank" class="btn btn-primary">Haberin Devamı...</a>
+            </div>
+          </div>
+          
+          <!-- SECOND CARD -->
+          <div class="card">
+            <!-- MAIN IMG -->
+            <img src="./imgs/Fatih Terim.jpg" class="card-img-top" height="185px" alt="...">
+            <!-- RIGHT-TOP TITLE -->
+            <span class="spor align-self-end">Spor</span>
+            <!-- CONTENTS -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">Şok İddia! <hr></h5>
+              <p class="card-text w-100 h-100"><b>Fatih Terim</b> Galatasaray'dan sonra emekliye ayrıldı olarak düşünülüyordu fakat işte ona gelen teklif...</p>
+              <a href="https://www.fotomac.com.tr/galatasaray/2023/07/23/transfer-haberleri-fatih-terim-icin-suudi-arabistan-iddiasi?paging=3" target="_blank" class="btn btn-primary">Haberin Devamı...</a>
+            </div>
+          </div>
+
+          <!-- THIRD CARD -->
+          <div class="card">
+            <!-- MAIN IMAGE -->
+            <img src="./imgs/pedrao.jpg" class="card-img-top"  alt="...">
+            <!-- RIGHT-TOP TITLE -->
+            <span class="spor align-self-end">Spor</span>
+            <!-- CONTENTS -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">Beşiktaş'ın Yeni Stoperi! <hr></h5>
+              <p class="card-text w-100 h-100">Sağlık aşamasına kadar gelinen transfer görüşmelerinde sorun çıkan Beşiktaş çözümü <b>Brezilyalı Stoperde</b> arıyor!</p>
+              <a href="https://www.fotomac.com.tr/besiktas/2023/07/23/transfer-haberleri-besiktasa-brezilyali-stoper-ilk-temas-kuruldu" target="_blank" class="btn btn-primary">Haberin Devamı...</a>
+            </div>
+          </div>
+
+          <!-- FOURTH CARD -->
+          <div class="card">
+          <img src="./imgs/abd.jpg" class="card-img-top" alt="..." >
+          <span class="spor align-self-end">Spor</span>
+          <div class="card-body d-inline-flex flex-column">
+            <h5 class="card-title">İki Talibi Çıktı! <hr></h5>
+            <p class="card-text w-100 h-100">Süper Lig'de geçtiğimiz sezonu <b>şampiyon</b> tamamlayan Galatasaray'ın başarılı stoperi Abdülkerim Bardakcı'nın talipleri artıyor.</p>
+            <a href="https://www.fotomac.com.tr/galatasaray/2023/07/22/galatasaray-transfer-haberleri-abdulkerim-bardakciya-surpriz-talipler-teklif-belli-oldu" target="_blank" class="btn btn-primary">Haberin Devamı...</a>
+          </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- END OF THE THIRD LINE -->
+
+      <!-- FOURTH LINE                                                                         POLITICS NEWS     -->
+
+      <!-- FOURTH LINE TITLE -->
+      <h2 id="siyaset" class="siyaset animate__animated animate__fadeInLeftBig">Siyaset Haberleri</h2>
+      <div class="row mt-3 animate__animated animate__fadeInLeftBig" id="four">
+        <div class="col-md d-flex flex-wrap">
+          <!-- FIRST CARD -->
+          <div class="card">
+            <!-- MAIN IMAGE -->
+            <img src="./imgs/Halk tv.jpg" class="card-img-top"  alt="...">
+            <!-- RIGHT-TOP TITLE -->
+            <span class="siyasi align-self-end">Siyasi</span>
+            <!-- CONTENT -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">CHP'den Fesih <hr></h5>
+              <p class="card-text w-100 h-100">CHP kimsenin bilmediği; <b>HalkTV</b> ile olan sözleşmesini fesih ettiğini bildirdi. İnsanlarda şaşkınlık yarattı.</p>
+              <a href="https://www.odatv4.com/guncel/kilicdaroglu-ilk-bicagi-halk-tv-ye-sapladi-para-iliskisi-kesildi-77013590" target="_blank" class="btn btn-dark">Haberin Devamı...</a>
+            </div>
+          </div>
+
+          <!-- SECOND CARD -->
+          <div class="card">
+            <!-- MAIN IMG -->
+            <img src="./imgs/tbmm.jpg" class="card-img-top" alt="..." >
+            <!-- RIGHT-TOP TITLE -->
+            <span class="siyasi align-self-end">Siyasi</span>
+            <!-- CONTENT -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">TBMM Toplanıyor <hr></h5>
+              <p class="card-text w-100 h-100">TBMM, yurttaşın belini büken <b>zam yağmuru ve ekonomideki kötü gidişatı</b> gündeme almak üzere 25 Temmuz'da olağanüstü toplanacak.</p>
+              <a href="https://www.cumhuriyet.com.tr/siyaset/tbmm-25-temmuzda-olaganustu-toplanacak-akpden-sasirtmayan-hamle-2101827?utm_medium=Kategori%20Sayfasi&utm_source=Cumhuriyet&utm_campaign=Kategori%20Sayfasi" target="_blank" class="btn btn-dark">Haberin Devamı...</a>
+            </div>
+          </div>
+
+          <!-- THIRD CARD -->
+          <div class="card">
+            <!-- MAIN IMG -->
+            <img src="./imgs/yeniden refah.jpg" class="card-img-top"  alt="...">
+            <!-- RIGHT-TOP TITLE -->
+            <span class="siyasi align-self-end">Siyasi</span>
+            <!-- CONTENT -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">Yeniden Refah Rahatsız <hr></h5>
+              <p class="card-text w-100 h-100">Yeniden Refah Partisinde <b>rahatsızlıklar</b> dile getiriliyor, AKP'den istifa etmiş ve YRP'ye katılmış milletvekilleri durumdan rahatsız.</p>
+              <a href="https://www.cumhuriyet.com.tr/siyaset/yeniden-refah-partisi-cumhur-ittifakindan-ayrilacak-mi-yrpli-aydal-beraberiz-imaji-verilmeye-calisiliyor-2101765?utm_medium=Kategori%20Sayfasi&utm_source=Cumhuriyet&utm_campaign=Kategori%20Sayfasi" target="_blank" class="btn btn-dark">Haberin Devamı...</a>
+            </div>
+          </div>
+
+          <!-- FOURTH CARD -->
+          <div class="card">
+            <!-- MAIN IMG -->
+            <img src="./imgs/Kira.jpg" class="card-img-top" alt="..." >
+            <!-- RIGHT-TOP TITLE -->
+            <span class="siyasi align-self-end">Siyasi</span>
+            <!-- CONTENT -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">Kira Göçü! <hr></h5>
+              <p class="card-text w-100 h-100">Artan kiralarla başlayan kentten göç, deprem korkusuyla daha da hızlandı. Özellikle kira artışının önüne geçilemeyen <b>İstanbul’dan küçük şehirlere</b> göçler başlarken yalnız yaşayanlar da ailelerinin yanına taşınıyor.</p>
+              <a href="https://www.cumhuriyet.com.tr/turkiye/turkiyede-kira-gocu-basladi-ogrencisi-de-emeklisi-de-ayni-dertten-yakiniyor-2101739?utm_medium=Kategori%20Sayfasi&utm_source=Cumhuriyet&utm_campaign=Kategori%20Sayfasi" target="_blank" class="btn btn-dark">Haberin Devamı...</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- END OF THE FOURTH LINE -->
+
+      <!-- FIFTH LINE                                                                         SCIENCE NEWS      -->
+
+      <!-- FIFTH LINE TITLE -->
+      <h2 id="bilim" class="bilim animate__animated animate__fadeInLeftBig">Bilimsel Gelişmeler</h2>
+      <div class="row mt-3 animate__animated animate__fadeInLeftBig" id="five">
+        <div class="col-md d-flex flex-wrap">
+          <!-- FIRST CARD -->
+          <div class="card">
+            <!-- MAIN IMG -->
+            <img src="./imgs/oppenheimer.jpg" class="card-img-top" alt="..." >
+            <!-- RIGHT-TOP TITLE -->
+            <span class="bilimsel align-self-end">Bilim</span>
+            <!-- CONTENT -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">Oppenheimer <hr></h5>
+              <p class="card-text w-100 h-100">Dünya gündemine giren bir film; Amerikalı <b>trajik bir dehanın</b> muhteşem öyküsü</p>
+              <a id="btn-bilimsel" href="https://www.bbc.com/turkce/articles/cd1e023vj30o" target="_blank" class="btn">Haberin Devamı...</a>
+            </div>
+          </div>
+
+          <!-- SECOND CARD -->
+          <div class="card">
+            <!-- MAIN IMG -->
+            <img src="./imgs/bilim2.jpg" class="card-img-top" alt="..." >
+            <!-- RIGHT-TOP TITLE -->
+            <span class="bilimsel align-self-end">Bilim</span>
+            <!-- CONTENT -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">Yemek ve İklim Krizi <hr></h5>
+              <p class="card-text w-100 h-100">Yediklerimizle <b>iklim krizi</b> arasında ne tür bir ilişki var?</p>
+              <a id="btn-bilimsel" href="https://www.bbc.com/turkce/articles/c99xgedzp8no" target="_blank" class="btn">Haberin Devamı...</a>
+            </div>
+          </div>
+
+          <!-- THIRD CARD -->
+          <div class="card">
+            <!-- MAIN IMG -->
+            <img src="./imgs/bilim3.jpg" class="card-img-top" alt="..." height="185px">
+            <!-- RIGHT-TOP TITLE -->
+            <span class="bilimsel align-self-end">Bilim</span>
+            <!-- CONTENT -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">Avrupa'da Aşırı Sıcaklar <hr></h5>
+              <p class="card-text w-100 h-100">Güney Avrupa’nın geniş kesimleri <b>rekor sıcaklıklardan</b> etkilenmeye devam ederken, kıta genelindeki orman yangınları sürüyor.</p>
+              <a id="btn-bilimsel" href="https://www.bbc.com/turkce/articles/c3g4jv7p2zro" target="_blank" class="btn">Haberin Devamı...</a>
+            </div>
+          </div>
+
+          <!-- FOURTH CARD -->
+          <div class="card">
+            <!-- MAIN IMG -->
+            <img src="./imgs/bilim4.jpg" class="card-img-top" alt="..." height="185px">
+            <!-- RIGHT-TOP TITLE -->
+            <span class="bilimsel align-self-end">Bilim</span>
+            <!-- CONTENT -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">Tümör ve Mikroplar <hr></h5>
+              <p class="card-text w-100 h-100">Tümörlerin içinde ve çevresinde yaşayan <b>bakteriler ve mantarlar</b>, kanserin nasıl geliştiğini ve nasıl tedavi edilebileceğini anlamada önemli rol oynayabilir.</p>
+              <a id="btn-bilimsel" href="https://www.bbc.com/turkce/articles/c9wjvpzrp8do" target="_blank" class="btn">Haberin Devamı...</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- END OF THE FIFTH LINE -->
+
+      <!-- SIXTH LINE                                                                         DAILY LIFE NEWS   -->
+
+      <!-- SIXTH LINE TITLE -->
+      <h2 id="yasam" class="yasam animate__animated animate__fadeInLeftBig">Günlük Yaşam</h2>
+      <div class="row mt-3 animate__animated animate__fadeInLeftBig" id="six">
+        <div class="col-md d-flex flex-wrap">
+          <!-- FIRST CARD -->
+          <div class="card">
+            <!-- MAIN IMG -->
+            <img src="./imgs/Oğlak Burcu.jpg" class="card-img-top" alt="..." >
+            <!-- RIGHT-TOP TITLE -->
+            <span class="life align-self-end">Gündelik</span>
+            <!-- CONTENT -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">Oğlak Burç Yorumu <hr></h1></h5>
+              <p class="card-text w-100 h-100">Bir şeyleri başlatan, değiştiren biri olamadığınızda bunun bir yetersizlik olduğu hissinden <b>kurtulmalısınız</b>.</p>
+              <a href="https://www.hurriyet.com.tr/mahmure/astroloji/oglak-burcu/" target="_blank" class="btn btn-success">Haberin Devamı...</a>
+            </div>
+          </div>
+
+          <!-- SECOND CARD -->
+          <div class="card">
+            <!-- MAIN IMG -->
+            <img src="./imgs/Başak Burcu.jpg" class="card-img-top" alt="..." >
+            <!-- RIGHT-TOP TITLE -->
+            <span class="life align-self-end">Gündelik</span>
+            <!-- CONTENT -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">Başak Burç Yorumu <hr></h5>
+              <p class="card-text w-100 h-100">Kendinizi toparlayın ve hedeflerinizi <b>düşünün</b>.</p>
+              <a href="https://www.hurriyet.com.tr/mahmure/astroloji/basak-burcu/" target="_blank" class="btn btn-success">Haberin Devamı...</a>
+            </div>
+          </div>
+
+          <!-- THIRD CARD -->
+          <div class="card">
+            <!-- MAIN IMG -->
+            <img src="./imgs/Boğa Burcu.jpg" class="card-img-top" alt="..." >
+            <!-- RIGHT-TOP TITLE -->
+            <span class="life align-self-end">Gündelik</span>
+            <!-- CONTENT -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">Boğa Burç Yorumu <hr></h5>
+              <p class="card-text w-100 h-100">Neyi <b>taşırsanız</b> onun izi elinizde kalacaktır.</p>
+              <a href="https://www.hurriyet.com.tr/mahmure/astroloji/boga-burcu/" target="_blank" class="btn btn-success">Haberin Devamı...</a>
+            </div>
+          </div>
+
+          <!-- FOURTH CARD -->
+          <div class="card">
+            <!-- MAIN IMG -->
+            <img src="./imgs/Yengeç Burcu.jpg" class="card-img-top" alt="..." >
+            <!-- RIGHT-TOP TITLE -->
+            <span class="life align-self-end">Gündelik</span>
+            <!-- CONTENT -->
+            <div class="card-body d-inline-flex flex-column">
+              <h5 class="card-title">Yengeç Burç Yorumu <hr></h5>
+              <p class="card-text w-100 h-100">Bugün kariyerinizdeki <b>beklentilerin</b> karşılanmaması durumuna kafa yorabilirsiniz.</p>
+              <a href="https://www.hurriyet.com.tr/mahmure/astroloji/yengec-burcu/" target="_blank" class="btn btn-success">Haberin Devamı...</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- END OF THE SIXTH LINE -->
+
+      <!-- FOOTER -->
+
+      <!-- FOOTER TITLE -->
+      <h3 class="text-center p-4 animate__animated animate__fadeInUp">HABER PORTALI 7/24 YAYINDA</h3>
+      <hr>
+      <div id="footer" class="row justify-content-evenly">
+         <!-- FIRST MENU -->
+         <div class="col-md-4 p-3 animate__animated animate__fadeInUp">
+          <div class="list-group list-group-flush text-center">
+            <li class="list-group-item"><a class="text-decoration-none" href="#banner">Anasayfa</a></li>
+            <li class="list-group-item"><a class="text-decoration-none" href="mailto:destek@example.com" >İletişim Maili</a></li>
+            <li class="list-group-item"><a class="text-decoration-none" href="#sondakikahaber" >Son Dakika Haberleri</a></li>
+            <li class="list-group-item"><a class="text-decoration-none" href="#spor">Spor Haberleri</a></li>
+          </div>
+        </div>
+
+        <!-- SECOND MENU -->
+        <div class="col-md-4 p-3 animate__animated animate__fadeInUp">
+          <div class="list-group list-group-flush text-center">
+            <li class="list-group-item"><a class="text-decoration-none" href="#siyaset" >Siyaset Haberleri</a></li>
+            <li class="list-group-item"><a class="text-decoration-none" href="#bilim" >Bilimsel Gelişmeler</a></li>
+            <li class="list-group-item"><a class="text-decoration-none" href="#yasam">Günlük Yaşam</a></li>
+            <li class="list-group-item"><a class="text-decoration-none" href="#banner" >Anlık Haberler</a></li>
+          </div>
+        </div>
+
+      </div>
+      <!-- END OF THE FOOTER -->
+
+    </div>
+    <!-- END OF THE CONTAINER   -->
+
+    <!-- JS BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
+
